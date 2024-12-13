@@ -2,7 +2,7 @@ import photo from "../../assets/photo.jpg";
 
 const Profile = () => {
   return (
-    <section className="mx-auto flex max-w-[70rem] flex-col items-center justify-center px-6 py-12">
+    <section className="mx-auto flex max-w-[70rem] flex-col items-center justify-center px-6 pt-12">
       <img
         src={photo.src}
         className="size-32 rounded-full object-cover"
