@@ -4,24 +4,24 @@ export default function Features() {
   const features = [
     {
       icon: <ArrowUpDown className="w-10 h-10 text-primary-end" />,
-      title: "Real-time Conversions",
-      description: "Convert between 160+ currencies with up-to-the-minute exchange rates.",
+      title: "Conversiones en Tiempo Real",
+      description: "Usa la calculadora incluida para realizar conversiones rapidamente.",
     },
     {
       icon: <Globe className="w-10 h-10 text-primary-end" />,
-      title: "Global Coverage",
-      description: "Support for major and exotic currencies from around the world.",
+      title: "Alcance Nacional",
+      description: "Soporta las 5 monedas más usadas en el país.",
     },
     {
       icon: <Bell className="w-10 h-10 text-primary-end" />,
-      title: "Rate Alerts",
-      description: "Get notified when your favorite currency pairs hit your target rates.",
+      title: "Notificaciones",
+      description: "Recibe notificaciones en la pantalla de desbloqueo de tu dispositivo.",
     },
     {
-      icon: <Shield className="w-10 h-10 text-primary-end" />,
-      title: "Secure & Private",
-      description: "Your data stays on your device. No account required.",
-    },
+      "icon": <Shield className="w-10 h-10 text-primary-end" />,
+      "title": "Seguro y Privado",
+      "description": "Tus datos permanecen en tu dispositivo. No se requiere cuenta."
+    }
   ]
 
   return (
@@ -30,11 +30,11 @@ export default function Features() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="bg-gradient-to-r from-primary-start to-primary-end bg-clip-text text-transparent">
-              Powerful Features
+              Funcionalidades
             </span>
           </h2>
           <p className="text-lg text-gray-600">
-            Everything you need for currency conversion and tracking in one simple app
+            Todo lo que necesita para convertir bolívares a las divisas más populares en Venezuela.
           </p>
         </div>
 

@@ -1,5 +1,5 @@
 import Link from "@/components/atoms/Link"
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Facebook, Twitter, Instagram, Linkedin, Github, Play } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -9,73 +9,53 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="inline-block">
               <span className="text-2xl font-bold bg-gradient-to-r from-primary-start to-primary-end bg-clip-text text-transparent">
-                CurrencyApp
+                Tu Bolívar Hoy
               </span>
             </Link>
-            <p className="text-gray-600">The simplest way to convert currencies and track exchange rates.</p>
+            <p className="text-gray-600">La forma más sencilla de convertir divisas y realizar un seguimiento de los tipos de cambio.</p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-primary-end transition-colors">
-                <Facebook size={20} />
+              <Link href="https://play.google.com/store/apps/dev?id=5515021505297833447" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank">
+                <Play size={20} />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary-end transition-colors">
-                <Twitter size={20} />
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary-end transition-colors">
+              <Link href="https://www.instagram.com/brianc.dev/" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank">
                 <Instagram size={20} />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary-end transition-colors">
+              <Link href="https://www.linkedin.com/in/brian-caldera-724049244" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank">
                 <Linkedin size={20} />
+              </Link>
+              <Link href="https://github.com/briancaldera" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank">
+                <Github size={20} />
               </Link>
             </div>
           </div>
 
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Product</h3>
+            <h3 className="font-semibold text-gray-900 mb-4">App</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Features
+                  Funcionalidades
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Download
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Updates
+                <Link href="https://play.google.com/store/apps/details?id=com.briancaldera.tubolivarhoy&pcampaignid=web_share" className="text-gray-600 hover:text-primary-end transition-colors">
+                  Descargar
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
+            <h3 className="font-semibold text-gray-900 mb-4">Desarrollador</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  About
+                  Acerca de mí
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Contact
+                  Contacto
                 </Link>
               </li>
             </ul>
@@ -86,22 +66,12 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Terms
+                  Términos de uso
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Privacy
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Cookies
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
-                  Licenses
+                  Privacidad
                 </Link>
               </li>
             </ul>
@@ -109,7 +79,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-100 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} CurrencyApp. All rights reserved.</p>
+          {/* <p>© {new Date().getFullYear()} Brian Caldera. Todos los derechos reservados.</p> */}
+          <p className="pt-4"><span className="font-black text-primary-start">&lt;&gt;</span> con <a href="https://youtu.be/UyQm4O9G7OM?feature=shared" target="_blank">❤️</a> por <a href="https://briancaldera.com/" className="text-primary-end font-bold">Brian Caldera</a></p>
         </div>
       </div>
     </footer>

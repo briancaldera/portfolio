@@ -12,29 +12,23 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-primary-start to-primary-end bg-clip-text text-transparent">
-                CurrencyApp
+                Tu Bolívar Hoy
               </span>
             </Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#app" className="text-gray-700 hover:text-primary-end transition-colors">
-              Get the App
+            <Link href="https://play.google.com/store/apps/details?id=com.briancaldera.tubolivarhoy&pcampaignid=web_share" className="text-gray-700 hover:text-primary-end transition-colors">
+              Consigue la app
             </Link>
             <Link href="#features" className="text-gray-700 hover:text-primary-end transition-colors">
-              Features
-            </Link>
-            <Link href="#rates" className="text-gray-700 hover:text-primary-end transition-colors">
-              Exchange Rates
-            </Link>
-            <Link href="#calculator" className="text-gray-700 hover:text-primary-end transition-colors">
-              Calculator
+              Funcionalidades
             </Link>
             <Link
-              href="#download"
+              href="https://play.google.com/store/apps/details?id=com.briancaldera.tubolivarhoy&pcampaignid=web_share"
               className="bg-gradient-to-r from-primary-start to-primary-end text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
             >
-              Download
+              Descargar
             </Link>
           </div>
 

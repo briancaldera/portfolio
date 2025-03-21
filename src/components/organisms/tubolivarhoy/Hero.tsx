@@ -8,25 +8,25 @@ export default function Hero() {
           <div className="md:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <span className="bg-gradient-to-r from-primary-start to-primary-end bg-clip-text text-transparent">
-                Currency Exchange
+                Cambio de Divisas
               </span>{" "}
-              Made Simple
+              Simplificado
             </h1>
             <p className="text-lg text-gray-600 max-w-lg">
-              Get real-time exchange rates, convert currencies, and track your favorite pairs all in one place.
+              Obtenga tipos de cambio en tiempo real, convierta monedas y realice un seguimiento de sus pares favoritos, todo desde una sola app.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="#download"
+                href="https://play.google.com/store/apps/details?id=com.briancaldera.tubolivarhoy&pcampaignid=web_share"
                 className="bg-gradient-to-r from-primary-start to-primary-end text-white px-6 py-3 rounded-md hover:opacity-90 transition-opacity font-medium"
               >
-                Download Now
+                Descargar ahora
               </Link>
               <Link
                 href="#features"
                 className="bg-white border border-gray-200 text-gray-700 px-6 py-3 rounded-md hover:bg-gray-50 transition-colors font-medium"
               >
-                Learn More
+                Ver más
               </Link>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-primary-start to-primary-end rounded-3xl blur-3xl opacity-20"></div>
               <img
                 src="https://play-lh.googleusercontent.com/WVGgVbKPgYzu8J-6JMZqlDk5HIV7bByIDAmpgkUDrwvBgbfYtXQFHBgJLH80lLlZTKQ=w240-h480-rw"
-                alt="Currency App Interface"
+                alt="Tu Bolívar Hoy icon"
                 width={300}
                 height={600}
                 className="relative z-10 mx-auto rounded-3xl shadow-xl"
