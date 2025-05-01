@@ -14,16 +14,16 @@ export default function Footer() {
             </Link>
             <p className="text-gray-600">La forma más sencilla de convertir divisas y realizar un seguimiento de los tipos de cambio.</p>
             <div className="flex space-x-4">
-              <Link href="https://play.google.com/store/apps/dev?id=5515021505297833447" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank">
+              <Link href="https://play.google.com/store/apps/dev?id=5515021505297833447" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank" aria-label='PlayStore link'>
                 <Play size={20} />
               </Link>
-              <Link href="https://www.instagram.com/brianc.dev/" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank">
+              <Link href="https://www.instagram.com/brianc.dev/" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank" aria-label='Instagram link'>
                 <Instagram size={20} />
               </Link>
-              <Link href="https://www.linkedin.com/in/brian-caldera-724049244" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank">
+              <Link href="https://www.linkedin.com/in/brian-caldera-724049244" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank" aria-label='LinkedIn link'>
                 <Linkedin size={20} />
               </Link>
-              <Link href="https://github.com/briancaldera" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank">
+              <Link href="https://github.com/briancaldera" className="text-gray-400 hover:text-primary-end transition-colors" target="_blank" aria-label='GitHub link'>
                 <Github size={20} />
               </Link>
             </div>
@@ -33,7 +33,7 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-900 mb-4">App</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
+                <Link href="/tubolivarhoy#features" className="text-gray-600 hover:text-primary-end transition-colors">
                   Funcionalidades
                 </Link>
               </li>
@@ -49,12 +49,12 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-900 mb-4">Desarrollador</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
+                <Link href="https://briancaldera.com" className="text-gray-600 hover:text-primary-end transition-colors">
                   Acerca de mí
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
+                <Link href="mailto:briancaldera07+support@gmail.com" className="text-gray-600 hover:text-primary-end transition-colors">
                   Contacto
                 </Link>
               </li>
@@ -65,13 +65,18 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-900 mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
+                <Link href="/tubolivarhoy/terms" className="text-gray-600 hover:text-primary-end transition-colors">
                   Términos de uso
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-primary-end transition-colors">
+                <Link href="/tubolivarhoy/privacy" className="text-gray-600 hover:text-primary-end transition-colors">
                   Privacidad
+                </Link>
+              </li>
+              <li>
+                <Link href="/tubolivarhoy/refunds" className="text-gray-600 hover:text-primary-end transition-colors">
+                  Reembolso
                 </Link>
               </li>
             </ul>
