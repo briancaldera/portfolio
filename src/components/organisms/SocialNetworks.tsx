@@ -13,7 +13,7 @@ const socialNetworks: SocialNetworkItem[] = [
   {
     image: igImage.src,
     name: "Instagram logo",
-    url: "https://www.instagram.com/brian_alexx7/",
+    url: "https://www.instagram.com/brianc.dev/",
   },
   {
     image: linkedinImage.src,
