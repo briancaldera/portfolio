@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center">
+            <Link href="/tubolivarhoy" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-primary-start to-primary-end bg-clip-text text-transparent">
                 Tu Bolívar Hoy
               </span>
@@ -21,7 +21,7 @@ export default function Navbar() {
             <Link href="https://play.google.com/store/apps/details?id=com.briancaldera.tubolivarhoy&pcampaignid=web_share" className="text-gray-700 hover:text-primary-end transition-colors">
               Consigue la app
             </Link>
-            <Link href="#features" className="text-gray-700 hover:text-primary-end transition-colors">
+            <Link href="/tubolivarhoy#features" className="text-gray-700 hover:text-primary-end transition-colors">
               Funcionalidades
             </Link>
             <Link
