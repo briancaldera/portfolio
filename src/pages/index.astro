@@ -1,17 +1,19 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import Profile from '../components/organisms/Profile'
-import Navbar from '../components/organisms/Navbar'
-import SocialNetworks from '../components/organisms/SocialNetworks'
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Profile from "../components/organisms/Profile";
+import Navbar from "../components/organisms/Navbar";
+import SocialNetworks from "../components/organisms/SocialNetworks";
 
 import TechStack from "../components/organisms/TechStack";
+import Library from "../components/organisms/Library";
 ---
 
 <BaseLayout>
-    <Navbar/>
-    <main class="h-full pt-16">
-        <Profile/>
-        <SocialNetworks/>
-        <TechStack/>
-    </main>
+  <Navbar />
+  <main class="h-full pt-16">
+    <Profile />
+    <SocialNetworks />
+    <TechStack />
+    <Library />
+  </main>
 </BaseLayout>
