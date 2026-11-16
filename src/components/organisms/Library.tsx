@@ -12,8 +12,17 @@ import serverlessAwsCover from "@/assets/images/books/serverlessdevelopmentonaws
 import cleanArchitectureCover from "@/assets/images/books/getyourhandsdirtyoncleanarchitecture_secondedition.webp";
 import softwareArchitectureWebCover from "@/assets/images/books/softwarearchitectureforwebdevelopers.webp";
 import youDontKnowJsCover from "@/assets/images/books/youdontknowjsyet.webp";
+import ddiaCover from "@/assets/images/books/designingdataintensiveapplications.webp";
+import androidApprenticeCover from "@/assets/images/books/androidapprenticebeginningandroiddevelopmentwithkotlin.jpg";
+import granLibroAndroidCover from "@/assets/images/books/elgranlibrodeandroid.jpg";
 
 const books: BookItem[] = [
+  {
+    title: "Designing Data-Intensive Applications",
+    author: "Martin Kleppmann",
+    image: ddiaCover.src,
+    url: "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
+  },
   {
     title: "RESTful Web API Patterns and Practices Cookbook",
     author: "Mike Amundsen",
@@ -91,6 +100,18 @@ const books: BookItem[] = [
     author: "Marijn Haverbeke",
     image: eloquentJavaScriptCover.src,
     url: "https://www.goodreads.com/book/show/216524172-eloquent-javascript-4th-edition",
+  },
+  {
+    title: "Android Apprentice: Beginning Android Development with Kotlin",
+    author: "Ray Wenderlich, Namrata Bandekar, Darryl Bayliss",
+    image: androidApprenticeCover.src,
+    url: "https://www.goodreads.com/en/book/show/50275493-android-apprentice",
+  },
+  {
+    title: "El gran libro de Android",
+    author: "Jesús Tomás Gironés",
+    image: granLibroAndroidCover.src,
+    url: "https://www.goodreads.com/book/show/18878191-el-gran-libro-de-android",
   },
 ];
 
